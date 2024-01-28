@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.Container{
+    margin: 65px auto 0px;
+    width: 1000px;
+}
+
+/* navbar */
+.navbar{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+.acticveLink{
+    font-weight: bold;
+}
+.navbarContent{
+    display: flex;
+    gap: 45px;
+}
+.navbarContent li a{
+    opacity: 0.5;
+}
+.navbarContent li a:hover{
+    opacity: 1;
+}
+/* text e image */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardText{
+    width: 489px;
+}
+.cardText h1{
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+.cardText h1 span{
+    color: #89C5CC;
+}
+.cardText p{
+    margin-bottom: 49px;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+}
+/* Whastaap Button */
+.buttonWhatsapp{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F9F9F9;
+    background-color: #69B99D;
+    border: none;
+    padding: 14px 32px 15px 32px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+/* CardImage */
+.cardImage{
+    width: 417px;
+    height: 433px;
+}
+footer{
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 5px
+}
+/* balls decoration */
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
